@@ -1,6 +1,6 @@
-streamlit==1.39.0
-google-genai==0.17.5
-chromadb==0.4.24
-beautifulsoup4==4.12.3
-requests==2.32.3
-numpy==1.26.4
+streamlit
+google-genai
+chromadb
+beautifulsoup4
+requests
+pysqlite3-binary
