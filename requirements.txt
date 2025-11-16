@@ -1,20 +1,7 @@
 streamlit==1.39.0
 google-generativeai==0.7.2
-
-# Vector Store
 chromadb==0.4.24
-
-# Torchless Embeddings (ONNX-based)
-sentence-transformers==2.2.2
-onnxruntime==1.19.2
-
-# Keras compatibility for transformers
-tf-keras==2.15.0
-
-# HTML parsing
 beautifulsoup4==4.12.3
 requests==2.32.3
-
-# Utils
 tqdm==4.66.4
 numpy==1.26.4
