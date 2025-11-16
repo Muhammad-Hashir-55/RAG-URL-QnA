@@ -1,25 +1,20 @@
-# --- Core App ---
 streamlit==1.39.0
-
-# --- Google Gemini API ---
 google-generativeai==0.7.2
 
-# --- Vector Store ---
+# Vector Store
 chromadb==0.4.24
 
-# --- Embeddings ---
-sentence-transformers==2.7.0
-torch==2.2.2
-transformers==4.40.0
+# Torchless Embeddings (ONNX-based)
+sentence-transformers==2.2.2
+onnxruntime==1.19.2
 
-# --- Keras Compatibility Fix ---
+# Keras compatibility for transformers
 tf-keras==2.15.0
-# (This prevents the Keras 3 compatibility error)
 
-# --- HTML Parsing ---
+# HTML parsing
 beautifulsoup4==4.12.3
 requests==2.32.3
 
-# --- Utilities ---
+# Utils
 tqdm==4.66.4
 numpy==1.26.4

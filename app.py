@@ -27,7 +27,7 @@ from chromadb.config import Settings
 # -------------------------
 # Configuration / Defaults
 # -------------------------
-MODEL_NAME = "sentence-transformers/all-mpnet-base-v2"
+MODEL_NAME = "thenlper/gte-small"
 CHROMA_DIR = "chroma_db"  # persistent folder for chroma
 CHROMA_COLLECTION_NAME = "rag_pages"
 CHUNK_SIZE = 1000           # characters per chunk
