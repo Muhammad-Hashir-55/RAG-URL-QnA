@@ -42,7 +42,7 @@ CHUNK_SIZE = 1000
 CHUNK_OVERLAP = 200
 TOP_K = 4
 EMBEDDING_MODEL = "gemini-embedding-001"   # gemini embedding model
-GEN_MODEL = "gemini-2.0-flash"            # generation model
+GEN_MODEL = "gemini-2.5-flash"            # generation model
 
 # -------------------------
 # UI styling
